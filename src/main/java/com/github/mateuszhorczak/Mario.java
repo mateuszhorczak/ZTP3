@@ -3,7 +3,7 @@ package com.github.mateuszhorczak;
 import javax.swing.*;
 
 public class Mario {
-    public static void main(String[] args)	{
+    public static void main(String[] args) {
         System.setProperty("sun.java2d.opengl", "true");
         JFrame frame = new JFrame("Mario");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

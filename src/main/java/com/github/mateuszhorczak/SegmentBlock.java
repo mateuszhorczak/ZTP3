@@ -8,13 +8,15 @@ import java.io.*;
 
 //segment bez mozliwosci przejscia
 class SegmentBlock extends Segment {
-    public SegmentBlock(int x, int y, String file)	{
-        super(x,y,file);
+    public SegmentBlock(int x, int y, String file) {
+        super(x, y, file);
     }
-    public void collisionV(Sprite sprite)	{
+
+    public void collisionV(Sprite sprite) {
         sprite.stopJump();
     }
-    public void collisionH(Sprite sprite)	{
+
+    public void collisionH(Sprite sprite) {
         sprite.stopMove();
     }
 }
